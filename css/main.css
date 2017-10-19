@@ -1,0 +1,71 @@
+*{
+  box-sizing: border-box;
+}
+
+/*Seleccionamos al id red y lo modificamos*/
+#red{
+  width: 240px;
+  height: 240px;
+  background: red;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+#purple{
+  /*Ancho*/
+  width: 120px;
+  /*Alto*/
+  height: 120px;
+  /*Color de la caja*/
+  background: purple;
+  /*Posicion dentro de nuestra página web*/
+  position: relative;
+/* Llamamos a la propiedad display con valor inline-block*/
+  display: inline-block;
+  /*Mover hacia la izquierda (Porque estamos usando la propiedad  position con valor relative*/
+  right: 185px;
+  /*Mover hacia arriba (Porque estamos usando la propiedad postion con valor relative)*/
+  bottom: 70px;
+}
+
+/*Seleccionamos al id yellow y lo modificamos*/
+#yellow{
+  width: 60px;
+  height: 60px;
+  background: yellow;
+  position: relative;
+  display: inline-block;
+  right: 309px;
+  bottom: 130px;
+}
+
+/*Seleccionamos al id blue y lo modificamos*/
+#blue{
+  width: 240px;
+  height: 240px;
+  background: blue;
+  position: relative;
+}
+
+/*Seleccionamos al id green y lo modificamos*/
+#green{
+  width: 120px;
+  height: 120px;
+  background: green;
+  position: relative;
+  display: inline-block;
+  left: 60px;
+  bottom: 180px;
+}
+
+/*Seleccionamos al id black y lo modificamos*/
+#black{
+  width: 60px;
+  height: 60px;
+  background: black;
+  position: relative;
+  display: inline-block;
+  left: -124px;
+  bottom: 300px;
+}
